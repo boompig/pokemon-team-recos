@@ -1,0 +1,675 @@
+{
+    "chain": {
+        "abra": [
+            {
+                "kadabra": [
+                    {
+                        "alakazam": []
+                    }
+                ]
+            }
+        ],
+        "absol": [],
+        "anorith": [
+            {
+                "armaldo": []
+            }
+        ],
+        "aron": [
+            {
+                "lairon": [
+                    {
+                        "aggron": []
+                    }
+                ]
+            }
+        ],
+        "bagon": [
+            {
+                "shelgon": [
+                    {
+                        "salamence": []
+                    }
+                ]
+            }
+        ],
+        "baltoy": [
+            {
+                "claydol": []
+            }
+        ],
+        "barboach": [
+            {
+                "whiscash": []
+            }
+        ],
+        "budew": [
+            {
+                "roselia": [
+                    {
+                        "roserade": []
+                    }
+                ]
+            }
+        ],
+        "cacnea": [
+            {
+                "cacturne": []
+            }
+        ],
+        "carvanha": [
+            {
+                "sharpedo": []
+            }
+        ],
+        "castform": [],
+        "chinchou": [
+            {
+                "lanturn": []
+            }
+        ],
+        "chingling": [
+            {
+                "chimecho": []
+            }
+        ],
+        "clamperl": [
+            {
+                "huntail": []
+            },
+            {
+                "gorebyss": []
+            }
+        ],
+        "corphish": [
+            {
+                "crawdaunt": []
+            }
+        ],
+        "corsola": [],
+        "doduo": [
+            {
+                "dodrio": []
+            }
+        ],
+        "duskull": [
+            {
+                "dusclops": [
+                    {
+                        "dusknoir": []
+                    }
+                ]
+            }
+        ],
+        "electrike": [
+            {
+                "manectric": []
+            }
+        ],
+        "feebas": [
+            {
+                "milotic": []
+            }
+        ],
+        "geodude": [
+            {
+                "graveler": [
+                    {
+                        "golem": []
+                    }
+                ]
+            }
+        ],
+        "girafarig": [],
+        "goldeen": [
+            {
+                "seaking": []
+            }
+        ],
+        "grimer": [
+            {
+                "muk": []
+            }
+        ],
+        "groudon": [],
+        "gulpin": [
+            {
+                "swalot": []
+            }
+        ],
+        "heracross": [],
+        "horsea": [
+            {
+                "seadra": [
+                    {
+                        "kingdra": []
+                    }
+                ]
+            }
+        ],
+        "igglybuff": [
+            {
+                "jigglypuff": [
+                    {
+                        "wigglytuff": []
+                    }
+                ]
+            }
+        ],
+        "illumise": [],
+        "kecleon": [],
+        "koffing": [
+            {
+                "weezing": []
+            }
+        ],
+        "kyogre": [],
+        "lileep": [
+            {
+                "cradily": []
+            }
+        ],
+        "lotad": [
+            {
+                "lombre": [
+                    {
+                        "ludicolo": []
+                    }
+                ]
+            }
+        ],
+        "lunatone": [],
+        "luvdisc": [],
+        "machop": [
+            {
+                "machoke": [
+                    {
+                        "machamp": []
+                    }
+                ]
+            }
+        ],
+        "magnemite": [
+            {
+                "magneton": [
+                    {
+                        "magnezone": []
+                    }
+                ]
+            }
+        ],
+        "makuhita": [
+            {
+                "hariyama": []
+            }
+        ],
+        "mawile": [],
+        "meditite": [
+            {
+                "medicham": []
+            }
+        ],
+        "minun": [],
+        "natu": [
+            {
+                "xatu": []
+            }
+        ],
+        "nincada": [
+            {
+                "ninjask": []
+            },
+            {
+                "shedinja": []
+            }
+        ],
+        "nosepass": [
+            {
+                "probopass": []
+            }
+        ],
+        "numel": [
+            {
+                "camerupt": []
+            }
+        ],
+        "oddish": [
+            {
+                "gloom": [
+                    {
+                        "vileplume": []
+                    },
+                    {
+                        "bellossom": []
+                    }
+                ]
+            }
+        ],
+        "phanpy": [
+            {
+                "donphan": []
+            }
+        ],
+        "pichu": [
+            {
+                "pikachu": [
+                    {
+                        "raichu": []
+                    }
+                ]
+            }
+        ],
+        "pinsir": [],
+        "plusle": [],
+        "poochyena": [
+            {
+                "mightyena": []
+            }
+        ],
+        "psyduck": [
+            {
+                "golduck": []
+            }
+        ],
+        "ralts": [
+            {
+                "kirlia": [
+                    {
+                        "gardevoir": []
+                    },
+                    {
+                        "gallade": []
+                    }
+                ]
+            }
+        ],
+        "regice": [],
+        "regirock": [],
+        "registeel": [],
+        "relicanth": [],
+        "rhyhorn": [
+            {
+                "rhydon": [
+                    {
+                        "rhyperior": []
+                    }
+                ]
+            }
+        ],
+        "sableye": [],
+        "sandshrew": [
+            {
+                "sandslash": []
+            }
+        ],
+        "seedot": [
+            {
+                "nuzleaf": [
+                    {
+                        "shiftry": []
+                    }
+                ]
+            }
+        ],
+        "seviper": [],
+        "shroomish": [
+            {
+                "breloom": []
+            }
+        ],
+        "shuppet": [
+            {
+                "banette": []
+            }
+        ],
+        "skarmory": [],
+        "skitty": [
+            {
+                "delcatty": []
+            }
+        ],
+        "slakoth": [
+            {
+                "vigoroth": [
+                    {
+                        "slaking": []
+                    }
+                ]
+            }
+        ],
+        "slugma": [
+            {
+                "magcargo": []
+            }
+        ],
+        "snorunt": [
+            {
+                "glalie": []
+            },
+            {
+                "froslass": []
+            }
+        ],
+        "solrock": [],
+        "spheal": [
+            {
+                "sealeo": [
+                    {
+                        "walrein": []
+                    }
+                ]
+            }
+        ],
+        "spinda": [],
+        "spoink": [
+            {
+                "grumpig": []
+            }
+        ],
+        "staryu": [
+            {
+                "starmie": []
+            }
+        ],
+        "surskit": [
+            {
+                "masquerain": []
+            }
+        ],
+        "swablu": [
+            {
+                "altaria": []
+            }
+        ],
+        "taillow": [
+            {
+                "swellow": []
+            }
+        ],
+        "tentacool": [
+            {
+                "tentacruel": []
+            }
+        ],
+        "torkoal": [],
+        "trapinch": [
+            {
+                "vibrava": [
+                    {
+                        "flygon": []
+                    }
+                ]
+            }
+        ],
+        "treecko": [
+            {
+                "grovyle": [
+                    {
+                        "sceptile": []
+                    }
+                ]
+            }
+        ],
+        "tropius": [],
+        "volbeat": [],
+        "voltorb": [
+            {
+                "electrode": []
+            }
+        ],
+        "vulpix": [
+            {
+                "ninetales": []
+            }
+        ],
+        "wailmer": [
+            {
+                "wailord": []
+            }
+        ],
+        "whismur": [
+            {
+                "loudred": [
+                    {
+                        "exploud": []
+                    }
+                ]
+            }
+        ],
+        "wingull": [
+            {
+                "pelipper": []
+            }
+        ],
+        "wurmple": [
+            {
+                "silcoon": [
+                    {
+                        "beautifly": []
+                    },
+                    {
+                        "cascoon": [
+                            {
+                                "dustox": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "wynaut": [
+            {
+                "wobbuffet": []
+            }
+        ],
+        "zangoose": [],
+        "zigzagoon": [
+            {
+                "linoone": []
+            }
+        ],
+        "zubat": [
+            {
+                "golbat": [
+                    {
+                        "crobat": []
+                    }
+                ]
+            }
+        ]
+    },
+    "pokemon": [
+        "abra",
+        "absol",
+        "aggron",
+        "alakazam",
+        "altaria",
+        "anorith",
+        "armaldo",
+        "aron",
+        "bagon",
+        "baltoy",
+        "banette",
+        "barboach",
+        "beautifly",
+        "bellossom",
+        "breloom",
+        "budew",
+        "cacnea",
+        "cacturne",
+        "camerupt",
+        "carvanha",
+        "cascoon",
+        "castform",
+        "chimecho",
+        "chinchou",
+        "chingling",
+        "clamperl",
+        "claydol",
+        "corphish",
+        "corsola",
+        "cradily",
+        "crawdaunt",
+        "crobat",
+        "delcatty",
+        "dodrio",
+        "doduo",
+        "donphan",
+        "dusclops",
+        "dusknoir",
+        "duskull",
+        "dustox",
+        "electrike",
+        "electrode",
+        "exploud",
+        "feebas",
+        "flygon",
+        "froslass",
+        "gallade",
+        "gardevoir",
+        "geodude",
+        "girafarig",
+        "glalie",
+        "gloom",
+        "golbat",
+        "goldeen",
+        "golduck",
+        "golem",
+        "gorebyss",
+        "graveler",
+        "grimer",
+        "groudon",
+        "grovyle",
+        "grumpig",
+        "gulpin",
+        "hariyama",
+        "heracross",
+        "horsea",
+        "huntail",
+        "igglybuff",
+        "illumise",
+        "jigglypuff",
+        "kadabra",
+        "kecleon",
+        "kingdra",
+        "kirlia",
+        "koffing",
+        "kyogre",
+        "lairon",
+        "lanturn",
+        "lileep",
+        "linoone",
+        "lombre",
+        "lotad",
+        "loudred",
+        "ludicolo",
+        "lunatone",
+        "luvdisc",
+        "machamp",
+        "machoke",
+        "machop",
+        "magcargo",
+        "magnemite",
+        "magneton",
+        "magnezone",
+        "makuhita",
+        "manectric",
+        "masquerain",
+        "mawile",
+        "medicham",
+        "meditite",
+        "mightyena",
+        "milotic",
+        "minun",
+        "muk",
+        "natu",
+        "nincada",
+        "ninetales",
+        "ninjask",
+        "nosepass",
+        "numel",
+        "nuzleaf",
+        "oddish",
+        "pelipper",
+        "phanpy",
+        "pichu",
+        "pikachu",
+        "pinsir",
+        "plusle",
+        "poochyena",
+        "probopass",
+        "psyduck",
+        "raichu",
+        "ralts",
+        "regice",
+        "regirock",
+        "registeel",
+        "relicanth",
+        "rhydon",
+        "rhyhorn",
+        "rhyperior",
+        "roselia",
+        "roserade",
+        "sableye",
+        "salamence",
+        "sandshrew",
+        "sandslash",
+        "sceptile",
+        "seadra",
+        "seaking",
+        "sealeo",
+        "seedot",
+        "seviper",
+        "sharpedo",
+        "shedinja",
+        "shelgon",
+        "shiftry",
+        "shroomish",
+        "shuppet",
+        "silcoon",
+        "skarmory",
+        "skitty",
+        "slaking",
+        "slakoth",
+        "slugma",
+        "snorunt",
+        "solrock",
+        "spheal",
+        "spinda",
+        "spoink",
+        "starmie",
+        "staryu",
+        "surskit",
+        "swablu",
+        "swalot",
+        "swellow",
+        "taillow",
+        "tentacool",
+        "tentacruel",
+        "torkoal",
+        "trapinch",
+        "treecko",
+        "tropius",
+        "vibrava",
+        "vigoroth",
+        "vileplume",
+        "volbeat",
+        "voltorb",
+        "vulpix",
+        "wailmer",
+        "wailord",
+        "walrein",
+        "weezing",
+        "whiscash",
+        "whismur",
+        "wigglytuff",
+        "wingull",
+        "wobbuffet",
+        "wurmple",
+        "wynaut",
+        "xatu",
+        "zangoose",
+        "zigzagoon",
+        "zubat"
+    ]
+}
