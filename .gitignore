@@ -1,2 +1,4 @@
 .vscode
 .ipynb_checkpoints
+.mypy_cache/
+reddit_secret.py

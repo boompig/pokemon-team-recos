@@ -1,3 +1,11 @@
+# To Run
+
+1. Create a file called reddit_secret.py and add the following string fields
+    - username
+    - password
+    - client_id
+    - secret
+
 # TODO
 
 1. Consolidate the findings into a webpage so you can recommend a team for a given starter based on the wisdom of crowds.

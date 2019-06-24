@@ -5,16 +5,12 @@ I am using a context-less parsing
 import praw
 import json
 from typing import List, Set
-import string
 import logging
 from Levenshtein import distance
 import os
 
-username = "rrrriddikulus"
-password = "FEcVc3.oC7+i7k6s"
+from reddit_secret import username, client_id, secret
 
-client_id = "y_9kOsOlZECgDQ"
-secret = "b32pVQ6HRSStHO_JDkvL5Jf7h9M"
 script_name = 'pokemon-comment-parser'
 
 version = '0.0.1'

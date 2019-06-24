@@ -1,6 +1,6 @@
 import os
 import json
-from argparse import ArgumentParser
+
 
 def merge_names():
     all_names = []

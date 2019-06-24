@@ -1,6 +1,6 @@
 # data take from here: https://www.smogon.com/forums/threads/oras-in-game-tier-list-read-post-324.3523089/
 
-from pprint import pprint
+# from pprint import pprint
 import os
 import json
 

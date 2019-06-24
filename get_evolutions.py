@@ -2,7 +2,7 @@ from argparse import ArgumentParser
 import os
 import json
 import requests
-from pprint import pprint
+# from pprint import pprint
 
 
 url = "https://pokeapi.co/api/v2/pokemon/"
