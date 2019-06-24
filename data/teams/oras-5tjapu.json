@@ -1,259 +1,264 @@
 [
     [
-        "leafeon",
-        "combusken",
-        "tentacool",
         "kirlia",
-        "aron"
+        "tentacool",
+        "aron",
+        "combusken",
+        "leafeon"
     ],
     [
-        "dusknoir",
-        "blaziken",
         "milotic",
-        "flygon",
-        "aggron",
-        "dusclops",
+        "blaziken",
         "absol",
-        "swampert"
+        "dusknoir",
+        "swampert",
+        "dusclops",
+        "flygon",
+        "aggron"
     ],
     [
-        "breloom",
+        "swellow",
+        "swampert",
         "grumpig",
         "latias",
-        "aggron",
-        "swellow",
         "glalie",
-        "swampert",
+        "aggron",
+        "breloom",
         "torkoal"
     ],
     [
-        "gyarados",
-        "mawile",
         "manectric",
         "sceptile",
         "swellow",
-        "metagross"
+        "mawile",
+        "metagross",
+        "gyarados"
     ],
     [
-        "camerupt",
-        "breloom",
-        "gardevoir",
-        "latios",
+        "swampert",
         "latias",
-        "aggron",
-        "swampert"
-    ],
-    [
-        "jolteon",
-        "serperior",
-        "flygon",
-        "aggron",
-        "porygon-z",
-        "sylveon"
-    ],
-    [
-        "walrein",
+        "latios",
         "camerupt",
-        "swalot",
+        "gardevoir",
+        "aggron",
+        "breloom"
+    ],
+    [
+        "aggron",
+        "sylveon",
+        "porygon-z",
+        "jolteon",
+        "flygon",
+        "serperior"
+    ],
+    [
         "manectric",
         "sceptile",
-        "banette"
+        "camerupt",
+        "swalot",
+        "banette",
+        "walrein"
     ],
     [
         "treecko"
     ],
     [
-        "beldum",
-        "marill",
         "kyogre",
-        "flygon",
-        "rayquaza",
         "salamence",
-        "skarmory",
-        "aggron",
         "swampert",
-        "metagross"
-    ],
-    [
-        "breloom",
-        "plusle",
-        "aggron",
-        "swampert",
-        "altaria"
-    ],
-    [
-        "blaziken",
-        "milotic",
         "flygon",
-        "gardevoir",
-        "aggron",
-        "metagross"
+        "skarmory",
+        "marill",
+        "metagross",
+        "rayquaza",
+        "beldum",
+        "aggron"
     ],
     [
+        "plusle",
+        "altaria",
+        "swampert",
+        "aggron",
+        "breloom",
+        "kecleon"
+    ],
+    [
+        "milotic",
         "blaziken",
+        "gardevoir",
+        "metagross",
+        "flygon",
+        "aggron"
+    ],
+    [
         "azumarill",
+        "ninjask",
+        "blaziken",
         "ludicolo",
         "latias",
-        "ninjask",
         "metagross"
     ],
     [
         "shiftry",
         "blaziken",
         "dusclops",
-        "glalie",
-        "armaldo",
-        "magnezone"
-    ],
-    [
-        "camerupt",
-        "crawdaunt",
-        "gallade",
-        "flygon",
-        "manectric",
-        "sceptile"
-    ],
-    [
-        "kyogre",
-        "latias",
-        "pikachu",
-        "swampert",
-        "linoone"
-    ],
-    [
-        "gallade",
-        "sharpedo",
-        "latias",
-        "sceptile",
-        "glalie",
-        "metagross"
-    ],
-    [
-        "shiftry",
-        "groudon",
-        "latios",
-        "swellow",
-        "swampert",
-        "metagross"
-    ],
-    [
-        "gallade",
-        "azumarill",
-        "latios",
-        "charizard",
         "magnezone",
-        "linoone"
+        "glalie",
+        "armaldo"
     ],
     [
-        "breloom",
-        "swellow",
-        "exploud",
+        "manectric",
+        "sceptile",
+        "crawdaunt",
+        "camerupt",
+        "flygon",
+        "gallade"
+    ],
+    [
+        "pikachu",
+        "kyogre",
         "swampert",
-        "wailord",
+        "latias",
         "linoone",
         "mightyena"
     ],
     [
-        "blaziken",
-        "azumarill",
-        "plusle",
+        "sharpedo",
+        "sceptile",
         "latias",
         "metagross",
-        "mightyena"
+        "glalie",
+        "gallade"
     ],
     [
-        "magnezone",
-        "samurott",
-        "groudon",
-        "breloom",
-        "blaziken",
-        "rayquaza",
-        "latios",
-        "gardevoir",
-        "manectric",
-        "altaria",
-        "torterra",
         "swellow",
+        "shiftry",
         "swampert",
+        "latios",
+        "metagross",
+        "groudon"
+    ],
+    [
+        "azumarill",
+        "latios",
+        "magnezone",
+        "linoone",
+        "charizard",
+        "gallade"
+    ],
+    [
+        "swellow",
+        "exploud",
+        "mightyena",
+        "swampert",
+        "wailord",
+        "linoone",
+        "breloom"
+    ],
+    [
+        "azumarill",
+        "plusle",
+        "blaziken",
+        "mightyena",
+        "latias",
         "metagross"
     ],
     [
-        "groudon",
-        "greninja",
-        "gyarados",
-        "mawile",
+        "torterra",
+        "manectric",
+        "swellow",
+        "blaziken",
+        "breloom",
+        "altaria",
+        "swampert",
+        "samurott",
         "latios",
-        "venusaur",
+        "magnezone",
+        "gardevoir",
+        "metagross",
+        "rayquaza",
+        "groudon"
+    ],
+    [
         "talonflame",
-        "swampert"
+        "greninja",
+        "venusaur",
+        "swampert",
+        "latios",
+        "mawile",
+        "gyarados",
+        "groudon",
+        "groudon",
+        "ralts"
     ],
     [
-        "blaziken",
-        "miltank",
-        "ludicolo",
         "sandslash",
-        "chatot",
-        "mightyena"
+        "miltank",
+        "mightyena",
+        "blaziken",
+        "ludicolo",
+        "chatot"
     ],
     [
-        "blaziken",
         "azumarill",
         "manectric",
-        "latias",
         "swellow",
-        "mightyena"
+        "mightyena",
+        "blaziken",
+        "latias"
     ],
     [
         "shedinja",
         "milotic",
-        "tropius",
         "sharpedo",
         "metagross",
+        "tropius",
         "torkoal"
     ],
     [
-        "breloom",
-        "dustox",
-        "snorlax",
-        "lunatone",
-        "crawdaunt",
-        "froslass",
-        "munchlax",
-        "buneary",
+        "bagon",
         "pikachu",
         "exploud",
         "geodude",
-        "bagon",
-        "totodile"
+        "crawdaunt",
+        "snorlax",
+        "lunatone",
+        "totodile",
+        "munchlax",
+        "dustox",
+        "buneary",
+        "breloom",
+        "froslass"
     ],
     [
-        "camerupt",
-        "dusknoir",
-        "froslass",
-        "breloom",
-        "milotic",
         "plusle",
+        "milotic",
         "manectric",
         "sceptile",
         "swellow",
+        "altaria",
+        "dusknoir",
         "swampert",
-        "altaria"
-    ],
-    [
-        "blaziken",
-        "gardevoir",
-        "vibrava",
-        "swellow",
-        "sealeo",
-        "roserade"
-    ],
-    [
+        "camerupt",
         "breloom",
-        "gallade",
-        "gardevoir",
-        "latias",
+        "froslass",
+        "flygon"
+    ],
+    [
+        "roserade",
+        "swellow",
+        "blaziken",
+        "vibrava",
+        "sealeo",
+        "gardevoir"
+    ],
+    [
         "sceptile",
-        "swellow"
+        "swellow",
+        "latias",
+        "gardevoir",
+        "breloom",
+        "gallade"
     ],
     []
 ]

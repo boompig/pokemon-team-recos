@@ -1,115 +1,117 @@
 [
     [
         "shedinja",
-        "sableye",
-        "mawile",
         "sharpedo",
         "sceptile",
         "swellow",
+        "ninjask",
         "pidgeot",
-        "ninjask"
+        "sableye",
+        "mawile"
     ],
     [
-        "gardevoir",
         "manectric",
         "swellow",
-        "ninetales",
         "swampert",
+        "ninetales",
+        "gardevoir",
         "machoke"
     ],
     [
+        "swellow",
+        "salamence",
+        "swampert",
         "sableye",
         "gardevoir",
-        "salamence",
-        "eelektross",
-        "swellow",
-        "swampert"
+        "eelektross"
     ],
     [
-        "tentacruel",
-        "combusken",
-        "gardevoir",
-        "latios",
         "metang",
-        "swellow"
+        "swellow",
+        "tentacruel",
+        "latios",
+        "gardevoir",
+        "combusken"
     ],
     [
+        "sharpedo",
         "gible",
+        "electrike",
+        "chimchar",
         "carvanha",
         "mawile",
-        "sharpedo",
-        "treecko",
-        "chimchar",
-        "electrike"
-    ],
-    [
-        "beldum",
-        "combusken",
-        "ralts",
-        "mightyena"
-    ],
-    [
-        "swampert",
-        "mawile",
-        "gardevoir",
-        "ninetales"
-    ],
-    [
-        "camerupt",
-        "latias",
-        "swellow",
-        "swampert",
-        "vileplume",
-        "metagross"
-    ],
-    [
-        "skitty",
-        "beldum",
-        "poochyena",
         "treecko"
     ],
     [
-        "spheal"
+        "beldum",
+        "mightyena",
+        "combusken",
+        "ralts"
     ],
     [
+        "ninetales",
+        "swampert",
+        "gardevoir",
+        "mawile"
+    ],
+    [
+        "swellow",
+        "swampert",
+        "latias",
         "camerupt",
-        "sableye",
+        "metagross",
+        "vileplume"
+    ],
+    [
+        "beldum",
+        "treecko",
+        "skitty",
+        "poochyena",
+        "taillow"
+    ],
+    [
+        "spheal",
+        "pelipper"
+    ],
+    [
         "sceptile",
-        "wailord",
         "altaria",
+        "wailord",
+        "sableye",
+        "camerupt",
         "slaking"
     ],
     [
-        "gallade",
+        "roserade",
         "absol",
-        "talonflame",
         "swampert",
         "luxray",
-        "roserade"
+        "talonflame",
+        "gallade"
     ],
     [
+        "sylveon",
         "honedge",
         "ralts",
-        "metang",
         "gengar",
-        "zorua",
-        "sylveon"
+        "metang",
+        "zorua"
     ],
     [
-        "swampert",
-        "machamp",
+        "pidgeot",
         "jolteon",
-        "pidgeot"
+        "swampert",
+        "machamp"
     ],
     [
         "flygon"
     ],
     [
-        "walrein",
-        "camerupt",
-        "gallade",
-        "flygon",
         "sceptile",
-        "swellow"
+        "swellow",
+        "camerupt",
+        "flygon",
+        "walrein",
+        "gallade"
     ]
 ]

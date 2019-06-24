@@ -4,10 +4,11 @@ I am using a context-less parsing
 
 import praw
 import json
-from typing import List, Set
+from typing import List, Set, Tuple
 import logging
 from Levenshtein import distance
 import os
+from argparse import ArgumentParser
 
 from reddit_secret import username, client_id, secret
 
@@ -28,11 +29,14 @@ def save_post_and_comments(submission, url: str, fname: str) -> None:
     results = {}
     results["url"] = url
     results["selftext"] = submission.selftext
+    results["id"]: submission.id
     results["comments"] = []
+    results["comment_ids"] = []
     for top_level_comment in submission.comments:
         results["comments"].append(top_level_comment.body)
+        results["comment_ids"].append(top_level_comment.id)
     with open(fname, "w") as f:
-        json.dump(results, f, indent=4)
+        json.dump(results, f, indent=4, sort_keys=True)
 
 
 def extract_tokens_from_post(post: str) -> List[str]:
@@ -88,7 +92,8 @@ def extract_team_possible(clean_tokens: List[str], words: Set[str]) -> List[str]
 
 def read_words() -> Set[str]:
     words = set([])
-    with open("/usr/share/dict/american-english") as f:
+    fname = "data/dictionary/words_alpha.txt"
+    with open(fname) as f:
         for line in f:
             words.add(line.rstrip().lower())
     # add a few internet words
@@ -99,6 +104,9 @@ def read_words() -> Set[str]:
     # a few common words
     words.add("storyline")
     words.add("monotype")
+    words.add("playthrough")
+    words.add("favourites")
+    words.add("jizzed")
     # add some pokemon terminology that's likely to come up
     words.add("hm")
     words.add("hms")
@@ -113,6 +121,12 @@ def read_words() -> Set[str]:
     words.add("asapphire")
     words.add("oruby")
     words.add("libre")
+    words.add('lvl')
+    words.add('ev')
+    words.add('op')
+    words.add('uu')
+    words.add('ru')
+    words.add('ou')
     # cosplay pikachu
     words.add("cosplay")
     words.add("unevolved")
@@ -120,7 +134,10 @@ def read_words() -> Set[str]:
     # words that are also pokemon
     words.remove("slaking")
     words.remove("electrode")
-    words.remove("aron")
+    words.discard("aron") # sometimes in word list
+    words.discard("skitty") # sometimes in word list
+    words.discard("golem") # sometimes in word list
+    words.discard("chatot") # sometimes in word list
     return words
 
 
@@ -129,17 +146,31 @@ def read_pokemon_list() -> Set[str]:
     Pokemon all in lower case
     """
     mons = []
-    with open("data/clean-names.json") as f:
+    with open("data/pokemon-names/clean-names.json") as f:
         mons.extend(json.load(f))
     return set([pk.lower() for pk in mons])
 
 
-def extract_team(possible: Set[str], definite: Set[str], pokemon_list: Set[str]) -> List[str]:
+def suggest_correction(user_str: str, potentials: Set[str]) -> Tuple[int,str]:
+    min_dist = -1
+    min_dist_word = None
+    for word in potentials:
+        dist = distance(user_str, word)
+        if min_dist < 0 or dist < min_dist:
+            min_dist = dist
+            min_dist_word = word
+    return min_dist, min_dist_word
+
+
+def extract_team(possible: Set[str], definite: Set[str], pokemon_list: Set[str], words: Set[str]) -> List[str]:
     try:
         assert definite.issubset(possible)
     except AssertionError as e:
+        print("definite - possible:")
         print(definite - possible)
+        print("definite:")
         print(definite)
+        print("possible:")
         print(possible)
         raise e
     # these are the ones we care about
@@ -150,26 +181,25 @@ def extract_team(possible: Set[str], definite: Set[str], pokemon_list: Set[str])
     # find the closest pokemon in terms of edit distance to these pokemon
     edit_table = {}
     for mistake in misspelt_pokemon:
-        min_dist = -1
-        min_dist_pk = None
-        for pokemon in pokemon_list:
-            dist = distance(mistake, pokemon)
-            if min_dist < 0 or dist < min_dist:
-                min_dist = dist
-                min_dist_pk = pokemon
+        mon_dist, min_dist_pk = suggest_correction(mistake, pokemon_list)
+        word_dist, min_word = suggest_correction(mistake, words)
         edit_table[mistake] = {
             "mon": min_dist_pk,
-            "distance": dist
+            "mon_distance": mon_dist,
+            "word": min_word,
+            "word_distance": word_dist
         }
     team = list(definite)
     if len(team) != 6:
         # add all the ones that are 2 or less
         for k, v in edit_table.items():
-            if v["distance"] <= 2:
+            if v["mon_distance"] <= 2:
                 logging.info("adding %s to team" % v["mon"])
                 team.append(v["mon"])
     else:
         logging.warning("team exactly 6, ignoring possible errors")
+        for k, v in edit_table.items():
+            logging.debug("misspellings: %s -> %s (%d) or -> %s (%d)", k, v["mon"], v["mon_distance"], v["word"], v["word_distance"])
     return team
 
 
@@ -184,15 +214,17 @@ def read_reddit(url, output_dir):
     return fname
 
 
-def extract_teams_from_post(post_fname):
+def extract_teams_from_post(post_fname: str):
     words = read_words()
 
     pokemon_list = read_pokemon_list()
     print("loaded %d pokemon" % len(pokemon_list))
 
+
     comments = []
     with open(post_fname) as f:
         contents = json.load(f)
+        print("Parsing submission ID %s..." % contents["id"])
         comments.append(contents["selftext"])
         for comment in contents["comments"]:
             comments.append(comment)
@@ -202,10 +234,12 @@ def extract_teams_from_post(post_fname):
         clean_tokens = extract_tokens_from_post(comment)
         definite = extract_team_definite(clean_tokens, pokemon_list)
         possible = extract_team_possible(clean_tokens, words)
-        team = extract_team(set(possible), set(definite), pokemon_list)
+        team = extract_team(set(possible), set(definite), pokemon_list, words)
         teams.append(team)
-        print(team)
-        print("-----")
+        # print(team)
+        # print("-----")
+    print("Read %d teams" % len(teams))
+    print("-----")
     return teams
 
 
@@ -219,9 +253,17 @@ if __name__ == '__main__':
 
     # fname = read_reddit(url, submission_dir)
     # print(fname)
+
+    parser = ArgumentParser()
+    parser.add_argument('-v', '--verbose', action='store_true', default=False)
+    args = parser.parse_args()
+
+    if args.verbose:
+        logging.basicConfig(level=logging.DEBUG)
+
     for fname in os.listdir(submission_dir):
         path = os.path.join(submission_dir, fname)
         teams = extract_teams_from_post(path)
         out_path = os.path.join("data/teams", fname)
         with open(out_path, "w") as f:
-            json.dump(teams, f, indent=4)
+            json.dump(teams, f, indent=4, sort_keys=True)

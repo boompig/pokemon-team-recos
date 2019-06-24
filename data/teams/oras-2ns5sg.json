@@ -1,26 +1,29 @@
 [
     [
-        "froslass",
-        "gallade",
         "milotic",
-        "flygon",
-        "gardevoir",
-        "latias",
-        "absol",
-        "banette",
         "roserade",
-        "metagross"
+        "absol",
+        "latias",
+        "gardevoir",
+        "metagross",
+        "banette",
+        "flygon",
+        "froslass",
+        "gallade"
     ],
-    [],
     [
-        "sceptile",
-        "ludicolo",
+        "azelf"
+    ],
+    [
         "linoone",
-        "latias"
+        "ludicolo",
+        "sceptile",
+        "latias",
+        "kyogre"
     ],
     [
-        "swampert",
         "alakazam",
+        "swampert",
         "ralts"
     ],
     [
@@ -28,103 +31,109 @@
         "gallade"
     ],
     [
-        "breloom",
-        "froslass",
-        "vulpix",
-        "gardevoir",
-        "spinda",
+        "altaria",
         "swampert",
-        "altaria"
+        "froslass",
+        "gardevoir",
+        "vulpix",
+        "breloom",
+        "spinda",
+        "masquerain",
+        "mothim"
     ],
     [
-        "flygon",
-        "gardevoir",
         "sceptile",
         "swellow",
-        "mightyena"
+        "mightyena",
+        "gardevoir",
+        "flygon",
+        "sharpedo",
+        "xatu"
     ],
     [
-        "shelgon",
-        "camerupt",
         "milotic",
+        "shelgon",
         "manectric",
         "sceptile",
+        "camerupt",
         "castform"
     ],
     [
-        "kyogre",
-        "ludicolo",
-        "sceptile",
         "pikachu",
+        "kyogre",
+        "sceptile",
         "hawlucha",
+        "ludicolo",
         "metagross"
     ],
     [
         "azumarill",
         "manectric",
-        "altaria",
         "sceptile",
+        "mightyena",
+        "altaria",
         "absol",
-        "metagross",
-        "mightyena"
-    ],
-    [
-        "froslass",
-        "blaziken",
-        "gardevoir",
-        "ludicolo",
-        "salamence",
-        "zangoose"
-    ],
-    [
-        "blaziken",
-        "crobat",
-        "latios",
-        "sharpedo",
-        "metagross",
-        "zangoose"
-    ],
-    [
-        "shiftry",
-        "combusken",
-        "tropius",
-        "ludicolo",
-        "cradily",
-        "swellow",
-        "electrike",
-        "aron",
-        "mightyena"
-    ],
-    [
-        "blaziken",
-        "milotic",
-        "flygon",
-        "gardevoir",
-        "manectric",
-        "absol"
-    ],
-    [
-        "breloom",
-        "blaziken",
-        "milotic",
-        "flygon",
-        "crobat",
         "metagross"
     ],
     [
-        "dustox",
-        "infernape",
+        "salamence",
+        "blaziken",
         "ludicolo",
-        "aggron",
-        "swampert",
-        "altaria"
+        "zangoose",
+        "gardevoir",
+        "froslass"
     ],
     [
-        "cacturne",
+        "sharpedo",
         "blaziken",
-        "wailord",
+        "zangoose",
+        "crobat",
+        "latios",
+        "metagross"
+    ],
+    [
+        "swellow",
+        "shiftry",
+        "electrike",
+        "mightyena",
+        "ludicolo",
+        "cradily",
+        "aron",
+        "combusken",
+        "tropius",
+        "breloom",
+        "kingdra"
+    ],
+    [
+        "milotic",
+        "manectric",
+        "blaziken",
+        "absol",
+        "gardevoir",
+        "flygon"
+    ],
+    [
+        "milotic",
+        "blaziken",
+        "crobat",
+        "metagross",
+        "flygon",
+        "breloom"
+    ],
+    [
+        "altaria",
+        "ludicolo",
+        "swampert",
+        "dustox",
+        "infernape",
+        "aggron"
+    ],
+    [
+        "blaziken",
+        "cacturne",
         "probopass",
-        "banette",
-        "xatu"
+        "wailord",
+        "xatu",
+        "banette"
     ]
 ]

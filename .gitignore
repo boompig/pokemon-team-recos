@@ -2,3 +2,4 @@
 .ipynb_checkpoints
 .mypy_cache/
 reddit_secret.py
+__pycache__

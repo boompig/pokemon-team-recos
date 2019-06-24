@@ -1,6 +1,5 @@
 beautifulsoup4==4.7.1
 bs4==0.0.1
-certifi==2019.6.16
 chardet==3.0.4
 coloredlogs==10.0
 humanfriendly==4.18

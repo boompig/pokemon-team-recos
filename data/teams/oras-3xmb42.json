@@ -1,446 +1,463 @@
 [
     [
-        "camerupt",
-        "gallade",
         "sceptile",
+        "altaria",
+        "camerupt",
         "aggron",
-        "altaria"
+        "gallade",
+        "gyarados"
     ],
     [
         "blaziken",
-        "gardevoir",
-        "garchomp",
-        "dusclops",
         "swampert",
-        "drapion"
+        "dusclops",
+        "drapion",
+        "gardevoir",
+        "garchomp"
     ],
     [
-        "camerupt",
-        "altaria",
         "sceptile",
+        "altaria",
+        "camerupt",
+        "metagross",
         "linoone",
-        "metagross"
+        "walrein"
     ],
     [
-        "honchkrow",
-        "skarmory",
+        "altaria",
         "pidgeot",
-        "noivern",
+        "skarmory",
         "gliscor",
-        "altaria"
+        "honchkrow",
+        "noivern"
     ],
     [
         "medicham",
         "sharpedo",
         "sceptile",
-        "armaldo",
+        "zangoose",
         "metagross",
-        "zangoose"
+        "armaldo"
     ],
     [
         "milotic",
-        "gardevoir",
-        "skarmory",
         "manectric",
         "sceptile",
+        "skarmory",
+        "gardevoir",
         "delcatty"
     ],
     [
-        "charizard",
-        "bidoof",
         "sceptile",
         "swellow",
+        "bidoof",
         "sylveon",
-        "metagross"
+        "metagross",
+        "charizard"
     ],
     [
-        "metagross",
-        "shiftry",
-        "gallade",
-        "sableye",
-        "tentacruel",
         "azumarill",
-        "flygon",
+        "pikachu",
+        "sceptile",
+        "tentacruel",
+        "shiftry",
+        "mightyena",
+        "altaria",
+        "swampert",
         "crobat",
         "latios",
-        "sceptile",
-        "pikachu",
-        "swampert",
-        "altaria",
-        "mightyena"
+        "sableye",
+        "metagross",
+        "flygon",
+        "gallade"
     ],
     [
-        "zangoose",
-        "sceptile",
-        "swellow",
-        "banette",
-        "mightyena"
-    ],
-    [
-        "masquerain",
-        "grumpig",
-        "golduck",
-        "skarmory",
-        "sandslash",
-        "wigglytuff"
-    ],
-    [
-        "camerupt",
-        "shedinja",
-        "sharpedo",
-        "aggron",
-        "altaria"
-    ],
-    [
-        "kyogre",
-        "swampert",
-        "breloom",
-        "skarmory"
-    ],
-    [
-        "tyranitar",
-        "mawile",
-        "tropius",
-        "skarmory",
-        "latias",
-        "metang",
-        "pikachu",
-        "absol",
-        "swampert",
-        "kirlia",
-        "lucario"
-    ],
-    [
-        "breloom",
-        "gardevoir",
-        "aggron",
-        "exploud",
-        "swampert",
-        "yanmega"
-    ],
-    [
-        "milotic",
-        "gardevoir",
         "sceptile",
         "swellow",
         "mightyena",
-        "torkoal"
+        "zangoose",
+        "banette"
     ],
     [
-        "salamence",
-        "sceptile",
-        "clawitzer",
-        "heracross",
         "wigglytuff",
-        "gothitelle"
-    ],
-    [
-        "camerupt",
-        "froslass",
-        "gallade",
-        "cacturne",
-        "milotic",
-        "swampert"
-    ],
-    [
-        "camerupt",
-        "flygon",
-        "swellow",
-        "glalie",
-        "swampert"
-    ],
-    [
-        "breloom",
-        "crobat",
-        "gardevoir",
-        "latios",
-        "manectric",
-        "swampert"
-    ],
-    [
-        "breloom",
-        "gardevoir",
-        "ludicolo",
-        "sceptile",
-        "aggron",
-        "ninjask"
-    ],
-    [
-        "camerupt",
-        "latios",
-        "dragalge",
-        "swampert",
-        "banette",
-        "metagross"
-    ],
-    [
-        "breloom",
-        "blaziken",
-        "gyarados",
-        "gardevoir",
-        "latias",
-        "absol"
-    ],
-    [
-        "shiftry",
-        "electrode",
-        "infernape",
-        "medicham",
-        "latios",
-        "skarmory",
-        "magcargo",
-        "noivern",
-        "swampert",
-        "linoone"
-    ],
-    [
-        "milotic",
-        "grumpig",
-        "electrode",
-        "swalot",
-        "sceptile",
-        "exploud"
-    ],
-    [
-        "breloom",
-        "flygon",
-        "gardevoir",
-        "lapras",
-        "absol"
-    ],
-    [
-        "walrein",
-        "shiftry",
-        "blaziken",
-        "gardevoir",
-        "salamence",
-        "aggron"
-    ],
-    [
-        "swampert",
-        "swellow",
-        "cacturne",
-        "manectric"
-    ],
-    [
-        "gallade",
-        "milotic",
-        "latios",
-        "sceptile",
-        "arcanine",
-        "absol"
-    ],
-    [
-        "samurott",
-        "camerupt",
-        "latias",
-        "sceptile",
-        "pikachu",
-        "mightyena"
-    ],
-    [
-        "camerupt",
-        "sableye",
-        "milotic",
-        "sceptile",
-        "magnezone",
-        "linoone"
-    ],
-    [
-        "skarmory",
-        "sceptile",
-        "steelix",
-        "riolu",
-        "lucario"
-    ],
-    [
-        "froslass",
-        "crobat",
-        "gardevoir",
-        "armaldo",
-        "swampert",
-        "roserade"
-    ],
-    [
-        "latios",
-        "swellow",
-        "glalie",
-        "swampert",
-        "roserade",
-        "ninetales"
-    ],
-    [
-        "breloom",
-        "cacturne",
-        "tropius",
-        "ludicolo",
-        "sceptile",
-        "vileplume"
-    ],
-    [
-        "tyranitar",
-        "tropius",
-        "sharpedo",
-        "gengar",
-        "smeargle",
-        "metagross"
-    ],
-    [
-        "camerupt",
-        "breloom",
-        "lanturn",
+        "sandslash",
         "masquerain",
-        "altaria",
-        "metagross"
-    ],
-    [],
-    [
-        "camerupt",
-        "milotic",
-        "latios",
-        "manectric",
-        "sceptile",
-        "absol"
-    ],
-    [
-        "makuhita",
-        "blaziken",
-        "swampert",
-        "luxray",
-        "wailord",
-        "mightyena"
-    ],
-    [
-        "walrein",
-        "gastrodon",
-        "tentacruel",
-        "pelipper",
-        "ludicolo",
-        "sharpedo"
+        "golduck",
+        "grumpig",
+        "skarmory"
     ],
     [
         "shedinja",
-        "breloom",
-        "ludicolo",
-        "sceptile",
-        "swellow",
-        "mightyena"
+        "sharpedo",
+        "altaria",
+        "camerupt",
+        "aggron",
+        "sceptile"
     ],
     [
-        "pelipper",
-        "flygon",
+        "skarmory",
+        "breloom",
+        "swampert",
+        "kyogre",
+        "pikachu"
+    ],
+    [
+        "pikachu",
+        "metang",
+        "kirlia",
+        "absol",
+        "swampert",
+        "latias",
+        "skarmory",
+        "tyranitar",
+        "mawile",
+        "lucario",
+        "tropius"
+    ],
+    [
+        "exploud",
+        "swampert",
+        "yanmega",
+        "gardevoir",
+        "aggron",
+        "breloom"
+    ],
+    [
+        "milotic",
         "sceptile",
-        "armaldo",
-        "magnezone",
-        "alakazam"
+        "swellow",
+        "mightyena",
+        "gardevoir",
+        "torkoal"
+    ],
+    [
+        "wigglytuff",
+        "sceptile",
+        "salamence",
+        "gothitelle",
+        "clawitzer",
+        "heracross"
+    ],
+    [
+        "milotic",
+        "cacturne",
+        "swampert",
+        "camerupt",
+        "froslass",
+        "gallade"
+    ],
+    [
+        "swellow",
+        "swampert",
+        "camerupt",
+        "glalie",
+        "flygon",
+        "manectric"
+    ],
+    [
+        "manectric",
+        "swampert",
+        "crobat",
+        "latios",
+        "gardevoir",
+        "breloom"
+    ],
+    [
+        "sceptile",
+        "ninjask",
+        "ludicolo",
+        "gardevoir",
+        "aggron",
+        "breloom"
+    ],
+    [
+        "swampert",
+        "latios",
+        "dragalge",
+        "camerupt",
+        "metagross",
+        "banette"
+    ],
+    [
+        "blaziken",
+        "absol",
+        "latias",
+        "gardevoir",
+        "gyarados",
+        "breloom"
+    ],
+    [
+        "medicham",
+        "shiftry",
+        "magcargo",
+        "swampert",
+        "electrode",
+        "skarmory",
+        "latios",
+        "linoone",
+        "infernape",
+        "noivern"
+    ],
+    [
+        "milotic",
+        "sceptile",
+        "exploud",
+        "grumpig",
+        "electrode",
+        "swalot"
+    ],
+    [
+        "absol",
+        "gardevoir",
+        "lapras",
+        "flygon",
+        "breloom",
+        "ninetales"
     ],
     [
         "shiftry",
-        "gallade",
-        "latios",
-        "sceptile",
-        "swellow",
-        "mightyena"
+        "blaziken",
+        "salamence",
+        "gardevoir",
+        "aggron",
+        "walrein"
     ],
     [
-        "rotom",
+        "cacturne",
+        "manectric",
+        "swampert",
+        "swellow",
+        "gardevoir"
+    ],
+    [
+        "milotic",
+        "sceptile",
+        "arcanine",
+        "absol",
+        "latios",
+        "gallade"
+    ],
+    [
+        "pikachu",
+        "sceptile",
+        "mightyena",
+        "samurott",
+        "latias",
+        "camerupt"
+    ],
+    [
+        "milotic",
+        "sceptile",
+        "sableye",
+        "camerupt",
+        "magnezone",
+        "linoone"
+    ],
+    [
+        "sceptile",
+        "riolu",
+        "skarmory",
+        "lucario",
+        "steelix"
+    ],
+    [
+        "roserade",
+        "swampert",
+        "crobat",
+        "gardevoir",
+        "armaldo",
+        "froslass"
+    ],
+    [
+        "roserade",
+        "swellow",
+        "swampert",
+        "latios",
+        "ninetales",
+        "glalie"
+    ],
+    [
+        "sceptile",
+        "cacturne",
+        "ludicolo",
+        "vileplume",
+        "tropius",
+        "breloom"
+    ],
+    [
+        "sharpedo",
+        "smeargle",
+        "tyranitar",
+        "gengar",
+        "metagross",
+        "tropius"
+    ],
+    [
+        "masquerain",
+        "altaria",
+        "camerupt",
+        "lanturn",
+        "metagross",
+        "breloom"
+    ],
+    [
+        "magcargo"
+    ],
+    [
+        "milotic",
+        "manectric",
+        "sceptile",
+        "absol",
+        "latios",
+        "camerupt"
+    ],
+    [
+        "makuhita",
+        "mightyena",
+        "blaziken",
+        "swampert",
+        "wailord",
+        "luxray"
+    ],
+    [
+        "sharpedo",
+        "tentacruel",
+        "ludicolo",
+        "pelipper",
+        "gastrodon",
+        "walrein"
+    ],
+    [
+        "shedinja",
+        "sceptile",
+        "swellow",
+        "mightyena",
+        "ludicolo",
+        "breloom"
+    ],
+    [
+        "alakazam",
+        "sceptile",
+        "pelipper",
+        "armaldo",
+        "magnezone",
         "flygon"
     ],
     [
+        "sceptile",
+        "swellow",
+        "shiftry",
+        "mightyena",
+        "latios",
+        "gallade"
+    ],
+    [
+        "flygon",
+        "rotom"
+    ],
+    [
+        "sceptile",
         "dusknoir",
         "rotom",
         "latias",
-        "sceptile",
-        "glalie",
-        "metagross"
+        "metagross",
+        "glalie"
     ],
     [
-        "leafeon",
-        "talonflame",
         "swampert",
         "luxray",
+        "metagross",
         "linoone",
-        "metagross"
+        "talonflame",
+        "leafeon"
     ],
     [
-        "glaceon",
-        "blaziken",
         "milotic",
-        "gardevoir",
-        "altaria",
         "pikachu",
+        "blaziken",
+        "glaceon",
+        "altaria",
+        "gardevoir",
         "metagross"
     ],
     [
-        "walrein",
-        "beldum",
-        "breloom",
-        "flygon",
-        "gardevoir",
         "plusle",
         "sceptile",
-        "metagross"
+        "beldum",
+        "gardevoir",
+        "metagross",
+        "flygon",
+        "breloom",
+        "walrein"
     ],
     [
-        "delcatty",
         "magmortar",
-        "slaking"
+        "slaking",
+        "delcatty",
+        "banette",
+        "haxorus",
+        "meowstic"
     ],
     [
-        "lombre",
-        "magikarp",
-        "blaziken",
         "shroomish",
         "beautifly",
-        "wurmple",
         "swellow",
-        "treecko",
+        "wurmple",
+        "blaziken",
+        "mightyena",
+        "magikarp",
         "linoone",
-        "mightyena"
+        "lombre",
+        "treecko",
+        "silcoon",
+        "surskit"
     ],
     [
+        "azumarill",
+        "sceptile",
+        "altaria",
         "camerupt",
+        "gardevoir",
+        "breloom"
+    ],
+    [
+        "alakazam",
+        "pikachu",
+        "blaziken",
+        "kirlia",
+        "ninetales",
+        "lapras",
+        "kingler",
+        "mightyena",
+        "altaria",
+        "umbreon",
+        "glaceon",
+        "doublade",
+        "camerupt",
+        "talonflame",
         "breloom",
         "azumarill",
-        "gardevoir",
-        "sceptile",
-        "altaria"
-    ],
-    [
-        "glaceon",
-        "kingler",
-        "azumarill",
-        "umbreon",
-        "pikachu",
-        "luxray",
-        "kirlia",
+        "joltik",
+        "zigzagoon",
+        "eevee",
         "bellossom",
-        "altaria",
-        "alakazam",
+        "pelipper",
+        "hariyama",
+        "espeon",
+        "latias",
+        "wailord",
+        "luxray",
+        "roserade",
+        "manectric",
+        "sylveon",
+        "swellow",
+        "metagross",
+        "linoone",
+        "vileplume",
         "golem",
         "walrein",
-        "camerupt",
-        "linoone",
-        "pelipper",
-        "latias",
-        "zigzagoon",
-        "roserade",
-        "hariyama",
-        "wailord",
-        "espeon",
-        "eevee",
-        "swellow",
-        "talonflame",
-        "vileplume",
-        "ninetales",
-        "sylveon",
-        "metagross",
-        "joltik",
-        "breloom",
-        "blaziken",
-        "doublade",
-        "lapras",
-        "manectric",
-        "mightyena"
+        "pidgeot",
+        "gardevoir",
+        "arcanine"
     ]
 ]

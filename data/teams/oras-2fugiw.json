@@ -3,95 +3,97 @@
         "flygon"
     ],
     [
-        "camerupt",
-        "sableye",
         "azumarill",
-        "flygon",
         "medicham",
         "sceptile",
-        "swellow"
+        "swellow",
+        "sableye",
+        "camerupt",
+        "flygon"
     ],
     [
-        "mudkip",
         "sealeo",
-        "skarmory"
+        "skarmory",
+        "mudkip"
     ],
     [
-        "chansey",
         "torchic",
+        "shroomish",
         "sharpedo",
-        "shroomish"
+        "chansey"
     ],
     [
         "milotic",
-        "flygon",
         "manectric",
         "sceptile",
-        "armaldo",
+        "flygon",
         "metagross",
+        "armaldo",
         "torkoal"
     ],
     [
-        "mudkip",
-        "camerupt",
         "sceptile",
-        "aggron",
-        "glalie",
+        "wailord",
+        "camerupt",
         "banette",
-        "wailord"
+        "glalie",
+        "aggron",
+        "mudkip",
+        "treecko"
     ],
     [
-        "flygon",
         "tropius",
         "manectric",
-        "aggron",
+        "mightyena",
         "swampert",
-        "mightyena"
+        "flygon",
+        "aggron"
     ],
     [
-        "sableye",
-        "golduck",
-        "flygon",
         "manectric",
         "sceptile",
-        "delcatty"
+        "golduck",
+        "sableye",
+        "delcatty",
+        "flygon"
     ],
     [
+        "pikachu",
         "kecleon",
-        "pikachu"
+        "treecko"
     ],
     [
-        "dustox",
-        "pelipper",
         "azumarill",
         "vigoroth",
+        "pelipper",
         "swampert",
+        "dustox",
         "poochyena"
     ],
     [
-        "walrein",
         "medicham",
+        "altaria",
         "ludicolo",
         "banette",
-        "altaria"
+        "walrein"
     ],
     [
-        "metagross",
-        "mudkip",
-        "empoleon",
-        "blaziken",
         "sceptile",
         "swellow",
+        "blaziken",
+        "altaria",
+        "metagross",
+        "empoleon",
         "aggron",
-        "altaria"
+        "mudkip"
     ],
     [
-        "camerupt",
-        "gallade",
-        "flygon",
-        "salamence",
         "manectric",
         "sharpedo",
-        "sceptile"
+        "sceptile",
+        "salamence",
+        "camerupt",
+        "flygon",
+        "gallade"
     ]
 ]
