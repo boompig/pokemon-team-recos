@@ -2,7 +2,6 @@ from argparse import ArgumentParser
 import os
 import json
 import requests
-# from pprint import pprint
 
 
 url = "https://pokeapi.co/api/v2/pokemon/"
@@ -83,7 +82,7 @@ def get_mons_from_chain(chain, mons):
             get_mons_from_chain(child, mons)
 
 
-if __name__ == "__main__":
+def first():
     # get_raw()
     parser = ArgumentParser()
     parser.add_argument("in_file")
@@ -109,3 +108,37 @@ if __name__ == "__main__":
             'chain': master_chain,
             'pokemon': list(sorted(mons))
         }, f, indent=4, sort_keys=True)
+
+
+def flatten():
+    with open('./data/in-game-tier-list/evo-chain-parsed.json') as f:
+        contents = json.load(f)
+
+    flat = {}
+
+    def rec(d, master) -> str:
+
+        # d is a dictionary that has only one key
+        # its values are an array
+        assert len(d) == 1
+        mon = [k for k in d][0]
+        l = []
+        for subd in d[mon]:
+            direct_evo = rec(subd, master)
+            l.append(direct_evo)
+        assert mon not in master
+        master[mon] = l
+        return mon
+
+    for mon, chains in contents['chain'].items():
+        d = {}
+        d[mon] = chains
+        rec(d, flat)
+    return flat
+
+
+if __name__ == "__main__":
+    # first()
+    d = flatten()
+    with open('./data/in-game-tier-list/evo-chain-flat.json', 'w') as f:
+        json.dump(d, f, indent=4, sort_keys=True)

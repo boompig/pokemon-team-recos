@@ -15,6 +15,7 @@
 3. Not currently pulling in types from the API. We should probably do that for better visualization.
 
 4. The graph is not normalized based on evolutions so different evolutions are treated as separate nodes.
+    - this is also true for recommendations...
 
 5. Edges are not labeled with weights
 
