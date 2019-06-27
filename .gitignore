@@ -1,5 +1,11 @@
+# sensitive
+reddit_secret.py
+
+# editor
 .vscode
+*.code-workspace
+
+# python
 .ipynb_checkpoints
 .mypy_cache/
-reddit_secret.py
 __pycache__
