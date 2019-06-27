@@ -214,13 +214,31 @@ def read_reddit(url, output_dir):
     return fname
 
 
-def extract_teams_from_post(post_fname: str):
+def extract_teams_generic(corpora: List[str]) -> list:
     words = read_words()
-
     pokemon_list = read_pokemon_list()
-    print("loaded %d pokemon" % len(pokemon_list))
+    logging.debug("loaded %d pokemon" % len(pokemon_list))
+
+    n = 0
+    for pk in pokemon_list:
+        if pk in words:
+            n += 1
+            words.remove(pk)
+    logging.info('Removed %d pokemon from english word list', n)
+
+    teams = []
+    for corpus in corpora:
+        clean_tokens = extract_tokens_from_post(corpus)
+        definite = extract_team_definite(clean_tokens, pokemon_list)
+        possible = extract_team_possible(clean_tokens, words)
+        team = extract_team(set(possible), set(definite), pokemon_list, words)
+        teams.append(team)
+    print("Read %d teams" % len(teams))
+    print("-----")
+    return teams
 
 
+def extract_teams_reddit(post_fname: str):
     comments = []
     with open(post_fname) as f:
         contents = json.load(f)
@@ -228,42 +246,51 @@ def extract_teams_from_post(post_fname: str):
         comments.append(contents["selftext"])
         for comment in contents["comments"]:
             comments.append(comment)
+    return extract_teams_generic(comments)
 
-    teams = []
-    for comment in comments:
-        clean_tokens = extract_tokens_from_post(comment)
-        definite = extract_team_definite(clean_tokens, pokemon_list)
-        possible = extract_team_possible(clean_tokens, words)
-        team = extract_team(set(possible), set(definite), pokemon_list, words)
-        teams.append(team)
-        # print(team)
-        # print("-----")
-    print("Read %d teams" % len(teams))
-    print("-----")
-    return teams
+
+def extract_teams_html(fname: str):
+    corpora = []
+    with open(fname) as f:
+        contents = json.load(f)
+        # NOTE: question should actually be blank for PokemonDB
+        corpora.append(contents['question']['content_text'])
+        for comment in contents['question_comments']:
+            corpora.append(comment['content_text'])
+        for answer in contents['answers']:
+            corpora.append(answer['content_text'])
+    return extract_teams_generic(corpora)
 
 
 if __name__ == '__main__':
-    submission_dir = "data/submissions"
-    # url = 'https://www.reddit.com/r/pokemon/comments/3xmb42/your_oras_team/'
-    # url = 'https://www.reddit.com/r/pokemon/comments/5tjapu/pokemon_oras_what_was_your_team/'
-    # url = 'https://www.reddit.com/r/pokemon/comments/2ns5sg/whats_your_in_game_oras_team/'
-    # url = 'https://www.reddit.com/r/pokemon/comments/2fugiw/oras_playthrough_teams/'
-    # url = 'https://www.reddit.com/r/pokemon/comments/2n71kc/whats_currently_your_oras_team/'
-
-    # fname = read_reddit(url, submission_dir)
-    # print(fname)
-
     parser = ArgumentParser()
     parser.add_argument('-v', '--verbose', action='store_true', default=False)
+    parser.add_argument('-m', '--method', choices=['reddit', 'html'], default='reddit',
+                        help='Data format of the input file')
+    g = parser.add_mutually_exclusive_group(required=True)
+    g.add_argument('-f', '--file', help='read data from file')
+    g.add_argument('-d', '--dir', help='read data from directory')
     args = parser.parse_args()
 
     if args.verbose:
         logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig(level=logging.INFO)
 
-    for fname in os.listdir(submission_dir):
-        path = os.path.join(submission_dir, fname)
-        teams = extract_teams_from_post(path)
-        out_path = os.path.join("data/teams", fname)
+    extract_fn = (extract_teams_reddit if args.method == 'reddit' else extract_teams_html)
+
+    if args.dir:
+        for fname in os.listdir(args.dir):
+            path = os.path.join(args.dir, fname)
+            teams = extract_fn(path)
+            out_path = os.path.join("data/teams", fname)
+            with open(out_path, "w") as f:
+                json.dump(teams, f, indent=4, sort_keys=True)
+    else:
+        teams = extract_fn(args.file)
+        base = os.path.basename(args.file)
+        out_path = os.path.join("data/teams", base)
         with open(out_path, "w") as f:
             json.dump(teams, f, indent=4, sort_keys=True)
+        print('Wrote to %s' % out_path)
+
