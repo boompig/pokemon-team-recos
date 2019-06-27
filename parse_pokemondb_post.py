@@ -3,8 +3,7 @@ Because it's only one post this doesn't have to be very fancy
 '''
 
 from bs4 import BeautifulSoup
-from pprint import pprint
-from typing import Optional
+# from typing import Optional
 from html2text import html2text
 import os
 import json
